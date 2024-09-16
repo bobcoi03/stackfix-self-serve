@@ -6,20 +6,14 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Based SaaS Starter Kit | Launch Your SaaS Faster",
-  description: "Accelerate your SaaS development with our starter kit. Built with Next.js, Stripe, Supabase, and shadcn/ui. Get started in minutes!",
+  title: "Stackfix Business Software Self Serve Prototype Upload",
+  description: "Upload your business software self serve prototype to Stackfix. Get started in minutes!",
   openGraph: {
-    title: "Based SaaS Starter Kit | Launch Your SaaS Faster",
-    description: "Accelerate your SaaS development with our starter kit. Built with Next.js, Stripe, Supabase, and shadcn/ui.",
-    siteName: "Based SaaS Starter Kit",
+    title: "Stackfix Business Software Self Serve Prototype Upload",
+    description: "Upload your business software self serve prototype to Stackfix.",
+    siteName: "Stackfix",
     locale: "en_US",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Based SaaS Starter Kit | Launch Your SaaS Faster",
-    description: "Accelerate your SaaS development with our starter kit. Built with Next.js, Stripe, Supabase, and shadcn/ui.",
-    creator: "@justwrapapi",
   },
 };
 
